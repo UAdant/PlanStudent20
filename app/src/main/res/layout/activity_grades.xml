@@ -1,0 +1,28 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <!-- Поля введення для введення оцінок -->
+    <EditText
+        android:id="@+id/editTextGradeSubject"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Назва предмету"
+        android:padding="12dp" /> <!-- Add padding to increase touchable area -->
+
+    <EditText
+        android:id="@+id/editTextGradeScore"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Оцінка"
+        android:padding="12dp" /> <!-- Add padding to increase touchable area -->
+
+    <!-- Кнопка для введення оцінки -->
+    <Button
+        android:id="@+id/buttonAddGrade"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Додати оцінку" />
+
+</LinearLayout>

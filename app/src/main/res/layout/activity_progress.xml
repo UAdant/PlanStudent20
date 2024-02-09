@@ -1,0 +1,28 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <!-- Поля введення для відстеження прогресу -->
+    <EditText
+        android:id="@+id/editTextCompletedTasks"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Завершені завдання"
+        android:padding="12dp" /> <!-- Add padding to increase touchable area -->
+
+    <EditText
+        android:id="@+id/editTextTotalReadings"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Загальна кількість читань"
+        android:padding="12dp" /> <!-- Add padding to increase touchable area -->
+
+    <!-- Кнопка для оновлення прогресу -->
+    <Button
+        android:id="@+id/buttonUpdateProgress"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Оновити прогрес" />
+
+</LinearLayout>

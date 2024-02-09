@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <!-- Ресурс для введення інформації про екзаменаційні сесії -->
+    <LinearLayout
+        android:id="@+id/examLayout"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <TextView
+            android:id="@+id/examNotificationTextView"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Повідомлення про наближення екзаменів" />
+
+        <EditText
+            android:id="@+id/examDateEditText"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Дата екзамену" />
+
+        <Button
+            android:id="@+id/addToCalendarButton"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Додати до календаря" />
+    </LinearLayout>
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>

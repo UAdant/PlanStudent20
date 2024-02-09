@@ -1,0 +1,28 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <!-- Поля введення для встановлення інформації про екзамен -->
+    <EditText
+        android:id="@+id/editTextExamSubject"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Назва предмету"
+        android:padding="12dp" /> <!-- Add padding to increase touchable area -->
+
+    <EditText
+        android:id="@+id/editTextExamDate"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Дата екзамену"
+        android:padding="12dp" /> <!-- Add padding to increase touchable area -->
+
+    <!-- Кнопка для додавання інформації про екзамен -->
+    <Button
+        android:id="@+id/buttonAddExam"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Додати екзамен" />
+
+</LinearLayout>
